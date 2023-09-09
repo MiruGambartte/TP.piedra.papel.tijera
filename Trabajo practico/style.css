@@ -1,0 +1,85 @@
+.body{
+    background-color:rgb(152, 152, 231);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+
+}
+.img {
+    height: 60px;
+    width: 60px;
+    border-radius: 1rem;
+}
+
+.boton{
+    background-color: white;
+    border: 0;
+    border-radius: 1rem;
+    
+}
+.marcador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    border-radius: 20px;
+    position: relative;
+}
+.computadora{
+    position: absolute;
+    left: 70%;
+    line-height: 1rem;
+
+}
+.jugador{
+    position: absolute;
+    right: 70%;
+    
+
+}
+.ganador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+}
+.eleccionPC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;  
+}
+.eleccion_usuario{
+    font-weight:bold;
+}
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.reinicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reiniciar{
+   height: 50px;
+   width: 150px;
+   border-radius: 5rem;
+    background-color: blueviolet;
+}
+.disabled{
+    display:none;
+}

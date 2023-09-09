@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Piedra, papel o tijera</title>
+</head>
+<body class="body">
+    <main>
+        <div class="encabezado">
+            <h1>Piedra, papel o tijera</h1>
+            <h4>Gana el que llegue a 5 puntos</h4>
+                <p>Eliga una opción</p>
+        </div>
+        <div   class="botones" id="botones">
+            <button class="boton" id="papel"><img src="img/papel.jpg" class="img" alt=""></button>
+             <button class="boton" id="piedra"><img src="img/piedra1.jpg" class="img" alt=""></button>
+             <button class="boton" id="tijera"><img src="img/tijeras.jpg" class="img" alt=""></button>
+        </div><br>
+        <div class="marcador">
+         <p class="jugador">jugador:</p>
+         <p class="computadora">computadora:</p>
+         <p class="puntos">
+            <span id="puntos_jugador">0</span>
+            <span>-</span>
+            <span id="puntos_computadora">0</span>
+         </p>
+        </div >
+        <div id="mensaje">
+            <p class="p">La computadora eligio:<span class = "eleccionPC" id="eleccionPC"> </span></p>
+            <p class="p">el jugador eligio:<span class = "eleccion_usuario" id="eleccion_usuario"> </span></p>
+            <h2><span class="ganador  " id="ganador"></span></h2><br>
+        </div>   
+        <div class="reinicio">
+            <button class="reiniciar disabled" id="reiniciar">Reiniciar el juego</button>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
